@@ -1,4 +1,3 @@
-from subprocess import call
+import subprocess
+subprocess.call(['git', 'pull'])
 
-comando = ['pull' ,'https://github.com/viktoriotw/actualizarigit.git']
-call(comando)
