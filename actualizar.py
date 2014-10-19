@@ -2,7 +2,7 @@ import subprocess
 import os
 import http.server
 import socketserver
-
+#-
 class MyHandler(http.server.BaseHTTPRequestHandler):
 	def do_GET(self):
 		subprocess.call(['git', 'pull'])
