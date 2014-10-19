@@ -1,4 +1,4 @@
 from subprocess import call
 
-comando = ['pull']
+comando = ['pull' ,'https://github.com/viktoriotw/actualizarigit.git']
 call(comando)
